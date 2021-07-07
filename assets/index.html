@@ -6,45 +6,52 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 1 - Step 2</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./css/normalize-min.css">
+  <link rel="stylesheet" href="./css/minfy.css">
+  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
 </head>
 <body>
-  <main class="site-main">
+  <main class="new_main">
     <div class="container">
-      <div class="box">
-        <form action="" method="get">
-        <h1 class="visually-hidden">Payment by cards</h1>
-        <section class="box-head">
-          <span class="box-slider"></span>
-          <span class="box-slider slider-simple"></span>
-          <span class="box-slider slider-simple"></span>
-          <h2 class="box-head-title">Payment method</h2>
-        </section>
+      <div class="assets">
+        <div class="new">
+          <ul class="list">
+            <li class="item items"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+          </ul>
+          <h1 class="new_h1">Payment Method</h1>
+        </div>
 
-          <section class="cards visa">
-        <label class="cards-box visa">
-          <input class="cards-radio visually-hidden " type="radio" name="payment-card" value="visa card">
-          <div class="cards">
-            <img class="box-logo visa-img" src="./img/visa.svg" alt="Visa card logo" width="50" height="30">
-            <p class="card-title">Visa</p>
-          </section>
+        <hr class="hr">
 
-          <section class="cards mastercard">
-            <img class="box-logo mastercard-img" src="./img/mastercard.svg" alt="mastercard logo" width="50" height="30">
-            <p class="card-title">Mastercard</p>
-          </section>
+      <div class="cardlar">
+        <div class="visa">
+          <img class="visa_img" src="./img/visa.svg" alt="visa kampaniya logosi" width="100" height="15">
+          <p class="visa_p">VISA</p>
+        </div>
 
-          <section class="cards maestro">
-            <img src="./img/maestro.svg" alt="maestro card logo" width="50" height="30px">
-            <p class="card-title">Maestro</p>
-          </section>
+        <hr class="hr">
 
-         <a class="box-btn" href="#">Next step</a>
-        </form>
+        <div class="mastercard">
+          <img class="mastercard_img" src="./img/mastercard.svg" alt="mastercar canpaniyasi logosi" width="100" height="15">
+          <p class="mastercard_p">MASTERCARD</p>
+          <img class="chesk" src="./img/check.svg" alt="pitichka">
+        </div>
+
+        <hr class="hr">
+
+        <div class="maestro">
+          <img class="maestro_img" src="./img/maestro.svg" alt="maestro kanpaniyasi logosi" width="100" height="15">
+          <p class="maestro_p">MAESTRO</p>
+        </div>
+      </div>
+      <div class="links">
+        <a class="link" href="#">Next Step</a>
+        <img class="images" src="./img/arrow.svg" alt="strelka" width="35px" height="25px">
+      </div>
       </div>
     </div>
-      </main>
-
+  </main>
 </body>
 </html>

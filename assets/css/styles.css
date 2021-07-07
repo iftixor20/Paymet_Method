@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v27-latin-300.woff2') format('woff2'),
+       url('../fonts/roboto-v27-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+       url('../fonts/roboto-v27-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v27-latin-700.woff2') format('woff2'),
+       url('../fonts/roboto-v27-latin-700.woff') format('woff');
+}
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 1.5px;
+  background-color: #F2F2F2;
+}
+
+
+
+.new_main {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/background.jpg");
+}
+
+.assets {
+  max-width: 700px;
+  background-color: #ffffff;
+  color: black;
+  margin-top: 150px;
+}
+
+.new {
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.item {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(90, 90, 104);
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+.items {
+  opacity: 1.0;
+}
+
+.new_h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardlar {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+.visa {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.visa_img {
+  width: 100px;
+  height: 68px;
+  padding-left: 30px;
+  margin-right: 60px;
+}
+
+.visa_p {
+  opacity: 0.5;
+ }
+
+ .mastercard {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.mastercard_img {
+  width: 100px;
+  height: 68px;
+  padding-left: 30px;
+  margin-right: 60px;
+}
+
+.mastercard_p {
+  opacity: 1.0;
+ }
+
+ .chesk {
+   width: 35px;
+   height: 35px;
+   margin-left: auto;
+   margin-right: 20px;
+   margin-top: 10px;
+ }
+
+ .maestro {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.maestro_img {
+  max-width: 100px;
+  height: 68px;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  margin-right: 60px;
+}
+
+.maestro_p {
+  opacity: 0.5;
+ }
+
+.links {
+  width: 560px;
+  height: 70px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(112, 112, 255, 0.733);
+}
+
+.link {
+  font-size: 21px;
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+  margin-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.images {
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  height: 25px;
+  margin-top: 16px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
